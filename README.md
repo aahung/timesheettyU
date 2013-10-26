@@ -1,4 +1,7 @@
-<label>A web tool generating calendar files which can be read by most calandar apps among the world from your CityU schedule.</label>
+<div class="container">	
+	<div class="row">
+		<div>	
+			<label>A web tool generating calendar files which can be read by most calandar apps among the world from your CityU schedule.</label>
 			<div class="well well-sm">
 				<p>
 					In CityU, everybody (almost) has a schedule, 
@@ -36,17 +39,6 @@
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-sm-4">
-			<img class="img-responsive" src="img/1.png">
-		</div>
-		<div class="col-sm-4">
-			<img class="img-responsive" src="img/2.png">
-		</div>
-		<div class="col-sm-4">
-			<img class="img-responsive" src="img/3.png">
-		</div>
-	</div>
-	<div class="row">
 		<div class="col-sm-12">
 			<br>
 			<div class="alert alert-warning">
@@ -54,3 +46,4 @@
 			</div>
 		</div>
 	</div>
+</div>
