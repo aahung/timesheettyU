@@ -34,16 +34,13 @@
 				</p>
 			</div>
 		</div>
-		<div class="col-sm-6 col-sm-offset-3">
-			<iframe style="width: 100%; height: 300px;" src="//www.youtube.com/embed/xWTv19ozzOk" frameborder="0" allowfullscreen></iframe>
-		</div>
 	</div>
 	<div class="row">
 		<div class="col-sm-4">
-			<h3>1. Open the "My Detail Schedule" in AIMS and see the source code; <small>[<a href="javascript: howToViewSc();">don't know how to view source code?</a>]</small></h3>
+			<h3>1. Open the "My Detail Schedule" in AIMS and see the source code; <br/><small>[<a href="javascript: howToViewSc();">don't know how to view source code?</a>]</small></h3>
 		</div>
 		<div class="col-sm-4 visible-xs">
-			<div class="row">
+			<div class="row draw">
 				<div class="col-sm-12 how-to-view-sc"></div>
 			</div>
 		</div>
@@ -54,12 +51,12 @@
 			<h3>3. Use your phone to scan the QR Code to download the calendar file and ENJOY!</h3>
 		</div>
 	</div>
-	<div class="row visible-sm visible-md visible-lg">
+	<div class="draw row visible-sm visible-md visible-lg">
 		<div class="col-sm-12 how-to-view-sc">
 			
 		</div>
 	</div>
-	<div class="row">
+	<div class="row hidden-xs">
 		<div class="col-sm-4">
 			<img class="img-responsive" src="img/1.png">
 		</div>
@@ -76,6 +73,7 @@
 			<div class="alert alert-warning">
 				<em>You'd better use a new calendar to store the schedule (making the choice while opening the schedule file), in case your schedule is changing and if so you can simply remove the whole calendar then create a new one.</em>
 			</div>
+			<div class="fb-like" data-href="http://ideati.me/idea/ics/" data-width="The pixel width of the plugin" data-height="The pixel height of the plugin" data-colorscheme="light" data-layout="button" data-action="like" data-show-faces="false" data-send="false"></div>
 		</div>
 	</div>
 	<hr>
@@ -112,6 +110,7 @@
 			<br />
 			<form id="get_it" role="form" style="display:none" >
 			<button type="submit" class="btn btn-default">Get it!</button>
+			<p><b>***If you didn't change the default reminder setting, you will receive reminder 1 hour before each class.***</b></p>
 			</form>
 			<script type="text/javascript" src="qrcode.min.js"></script>
 			<script type="text/javascript">

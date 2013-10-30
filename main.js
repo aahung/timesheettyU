@@ -1,6 +1,7 @@
 var sd;
 var courseCollection;
 $(function(){
+	// make textare background changable
 	$("#timetable_source").focus(function(){
 		$(this).css("background", "white");
 	});
@@ -94,10 +95,10 @@ function doIt(){
 }
 function howToViewSc(zero){
 	var html = $("#how-to-view-sc").html();
-	$(".how-to-view-sc").parent().addClass("well");
 	$(".how-to-view-sc").html(html);
+	$(".how-to-view-sc").parent().addClass("well");
 	if (zero == 0){
-		$(".how-to-view-sc").parent().removeClass("well");
 		$(".how-to-view-sc").html("");
+		$(".how-to-view-sc").parent().removeClass("well");
 	}
 }
