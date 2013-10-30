@@ -25,7 +25,7 @@
 		}
 		$DESCRIPTION = $course[""];
 		foreach ($course["timeCollection"]['time'] as $time) {
-			$UID = hash("sha256", $userName . $_time . $SUMMARY);
+			$UID = hash("sha256", $userName . $_time . $SUMMARY . rand() . rand() . rand());
 			$startDate = generateDate($time['startYr'], $time['startMon'], $time['startDay']);
 			$endDate = generateDate($time['endYr'], $time['endMon'], $time['endDay']);
 			$startTime = generateTime($time['startHr'], $time['startMin']);
