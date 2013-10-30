@@ -40,13 +40,23 @@
 	</div>
 	<div class="row">
 		<div class="col-sm-4">
-			<h3>1. Open the "My Detail Schedule" in AIMS and see the source code;</h3>
+			<h3>1. Open the "My Detail Schedule" in AIMS and see the source code; <small>[<a href="javascript: howToViewSc();">don't know how to view source code?</a>]</small></h3>
+		</div>
+		<div class="col-sm-4 visible-xs">
+			<div class="row">
+				<div class="col-sm-12 how-to-view-sc"></div>
+			</div>
 		</div>
 		<div class="col-sm-4">
 			<h3>2. Copy the page's source code into the text box below;</h3>
 		</div>
 		<div class="col-sm-4">
 			<h3>3. Use your phone to scan the QR Code to download the calendar file and ENJOY!</h3>
+		</div>
+	</div>
+	<div class="row visible-sm visible-md visible-lg">
+		<div class="col-sm-12 how-to-view-sc">
+			
 		</div>
 	</div>
 	<div class="row">
@@ -125,6 +135,36 @@
 		</div>
 		
 	</div>
+	<span id="how-to-view-sc" style="display: none">
+		<div class="col-sm-12">
+			<span style="position: absolute; right: 0"><a href="javascript: howToViewSc(0);">x</a></span>
+			<h4>How to view source code</h4>
+			<hr />
+			<h5>Safari (desktop)</h5>
+			<ol>
+				<li>Safari(Menu) > Preferences > Advanced</li>
+				<li>Check "Show Develop menu in menu bar", Close Safari's preferences</li>
+				<li>Develop menu > Show Page Source</li>
+			</ol>
+			<h5>Chrome or FireFox (desktop)</h5>
+			<ol>
+				<li>Right click on the blank of the page</li>
+				<li>Click "View Page Source"</li>
+			</ol>
+			<h5>IE (desktop)</h5>
+			<ul>
+				<li>View > Source</li>
+			</ul>
+			<h5>iOS</h5>
+			<ul>
+				<li>Download <a target="_blank" href="https://itunes.apple.com/sa/app/html-source-code-browser/id652236999?mt=8">HTML Source Code Browser</a> from App Store</li>
+			</ul>
+			<h5>Android</h5>
+			<ul>
+				<li>Download <a target="_blank" href="https://play.google.com/store/apps/details?id=com.aidaluu.showcodeand&hl=en">Show Code HTML Source Viewer</a> from Google Play</li>
+			</ul>
+		</div>
+	</span>
 	<script src="main.js"></script>
 	<script src="class.js"></script>
 	<script src="http://dystroy.org/JSON.prune/.js"></script>

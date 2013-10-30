@@ -92,3 +92,12 @@ function doIt(){
 		});
 	}
 }
+function howToViewSc(zero){
+	var html = $("#how-to-view-sc").html();
+	$(".how-to-view-sc").parent().addClass("well");
+	$(".how-to-view-sc").html(html);
+	if (zero == 0){
+		$(".how-to-view-sc").parent().removeClass("well");
+		$(".how-to-view-sc").html("");
+	}
+}
