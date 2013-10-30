@@ -1,25 +1,23 @@
 <div class="container">	
 	<div class="row">
 		<div>	
-			<label>A web tool generating calendar files which can be read by most calandar apps among the world from your CityU schedule <strong>AUTOMATICCALLY</strong>.</label>
+			<h1>TimeSheettyU</h1>
+			<h4>To automatically extract schedule from your CityU AIMS into your calendar Apps! <strong>AUTOMATICALLY!</strong></h4>
 			<div class="well well-sm">
 				<p>
-					In CityU, everybody (almost) has a schedule, 
-					listing when and where our classes are going to be.<br>
-					Normally, a <strong>screenshot</strong> of "Weekly Schedule" is taken and stored in our phones or even set as wallpaper, 
-					<strong>However</strong>, troubles come:
+					In CityU, everybody (almost) has a schedule, most students make a <strong>screenshot</strong> and save it into phones or set it as wallpaper.
+					<br />
+					<em>small, ugly, always out of style.</em>
+					<br />
 				</p>
-				<blockquote>
-					"Why the ugly timetable should occupy my desktop!"
-				</blockquote>
-				<blockquote>
-					"Why the schedule doesn't tell me whether <strong>this week</strong> I need to take this course or not!"
-				</blockquote>
-				<blockquote>
-					"Come on!!! I need someone to remind me before the class!!!"
-				</blockquote>
+				<h4>
+					Input it into your calendar in your phone? one by one? <strong>What an annoying JOB!</strong>	
+				</h4>
+				<h2>	
+					Now, you will never need to do it.
+				</h2>
 				<p class="lead">
-					So here is <strong>TimeSheettyU<small>beta</small></strong>, making schedule into your Calendar App, remind setting, weekly detecting, extendable, and simplifying your timetable!
+					Here is <strong>TimeSheettyU</strong>, making schedule into your Calendar App, <strong>AUTOMATICALLY</strong>, reminder setting, weekly detecting, extendable, and simplifying your timetable!
 				</p>
 			</div>
 		</div>
