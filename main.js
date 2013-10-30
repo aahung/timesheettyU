@@ -1,5 +1,18 @@
 var sd;
 var courseCollection;
+$(function(){
+	$("#timetable_source").focus(function(){
+		$(this).css("background", "white");
+	});
+	$("#timetable_source").blur(function(){
+		if ($(this).val() == "") {
+			$(this).css("background", "url('img/sc-placeholder.png')");
+		}
+		else{
+			$(this).css("background", "white");
+		}
+	});
+});
 function doIt(){
 	var sc = $("#timetable_source").val();
 	if (!sc.match("</HTML>+")) {
