@@ -1,7 +1,7 @@
 <div class="container">	
 	<div class="row">
 		<div>	
-			<label>A web tool generating calendar files which can be read by most calandar apps among the world from your CityU schedule.</label>
+			<label>A web tool generating calendar files which can be read by most calandar apps among the world from your CityU schedule <strong>AUTOMATICCALLY</strong>.</label>
 			<div class="well well-sm">
 				<p>
 					In CityU, everybody (almost) has a schedule, 
@@ -44,6 +44,16 @@
 			<div class="alert alert-warning">
 				<em>You'd better use a new calendar to store the schedule (making the choice while opening the schedule file), in case your schedule is changing and if so you can simply remove the whole calendar then create a new one.</em>
 			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-12">
+			<h1>FUTURE PLAN</h1>
+			<ol>
+				<li>Let users can merge two or even more schedules into one. (for groups or lovers).</li>
+				<li>Let users choose whether their calendars are private or public, when public, anyone could see and merge them, if private, only someone owning the key can see and merge them.</li>
+				<li>Add real-time function to display who is having classes now (only display public calendars).</li>
+			</ol>
 		</div>
 	</div>
 </div>
