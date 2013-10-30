@@ -9,8 +9,9 @@ try {
     $st -> execute();
     $rows = $st -> fetchAll();
     $ics = $rows[0]["content"];
-    header('Content-disposition: attachment; filename=cityu_timetable.ics');
-header('Content-type: text/plain');
+    $filename = hash("sha256", $id);
+	header('Content-type: text/calendar; charset=utf-8');
+    header('Content-disposition: inline; filename=' . $filename . '.ics');
     echo $ics;
 }
 catch (PDOException $e){

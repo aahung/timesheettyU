@@ -13,7 +13,8 @@ $id=$_GET['id'];
 		<div class="col-sm-12">
 			<h2 class="alert alert-info">If you are using in-app browser like in <large><em>WeChat</em></large> and BlaBla, please open this page in Chrome or Safari!</h2>
 			<h3>file will be download in 3 seconds...</h3>
-			<h1>if no response, click <a href="icsfile.php?id=<?php echo $id; ?>">HERE</a> to launch the download.</h1>
+			<h1>if no response, click <a target="_blank"> href="icsfile.php?id=<?php echo $id; ?>">HERE</a> to launch the download.</h1>
+			<div class="fb-like" data-href="http://ideati.me/idea/ics/" data-width="The pixel width of the plugin" data-colorscheme="light" data-layout="button" data-action="like" data-show-faces="false" data-send="false"></div>
 		</div>
 	</div>
 	<!-- /main -->
