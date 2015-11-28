@@ -24,7 +24,7 @@ Now, you will never need to do it.
 
 ##Note
 
-It's recommend to use a new calendar to store the schedule (making the choice while opening the schedule file). In case your schedule is changed you can simply remove the whole calendar then create a new one.
+It's recommended to use a new calendar to store the schedule (making the choice while opening the schedule file). In case your schedule is changed you can simply remove the whole calendar then create a new one.
 
 ##Future Plan
 
